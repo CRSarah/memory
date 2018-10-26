@@ -1,0 +1,49 @@
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+}
+
+header {
+  background-color: #EEEEEE;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 4em;
+  font-weight: normal;
+  padding: 0.8em;
+}
+
+#container {
+  width: 770px;
+  height: 440px;
+  background-color: #DDDDFF;
+  margin: 4em auto;
+  padding: 10px;
+}
+
+.carte {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 5px;
+}
+
+.cache {
+  background-color: #AAAAAA;
+  width: inherit;
+  height: inherit;
+}
+
+.image {
+  width: inherit;
+  height: inherit;
+  background-color: white;
+  background-image: url(images/cards.png);
+}
+
+.image:hover {
+  background-color: rgba(170, 170, 170, 0.5);
+}
